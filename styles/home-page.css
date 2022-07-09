@@ -1,0 +1,30 @@
+body{
+    background-color: #e1f5f1;
+    margin: 0.1%;/*spaces with the sides of the screen*/
+}
+
+/*Horizontal bar color*/
+.horizontal-icon-bar{
+    width: 100%;
+    background-color: #5dd6aa;
+    overflow: auto;
+}
+
+/*Horizontal menu properties*/
+.horizontal-icon-bar a{
+    float: right;
+    text-align: center;
+    padding: 4px 0;
+    transition: all 0.3s ease;
+    color: white;
+    width: 4%;
+    border-radius: 45%;
+}
+
+.horizontal-icon-bar a:hover{
+    background-color:aqua;
+}
+
+/*
+.horizontal-icon-bar a active state has to be set.
+*/
